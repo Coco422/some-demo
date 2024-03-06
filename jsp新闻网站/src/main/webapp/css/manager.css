@@ -1,0 +1,90 @@
+@charset "UTF-8";
+.right-bottom .btn
+{
+	height:32px;
+	width:100px;
+	background-color:white;
+	color:rgb(73,153,255);
+	box-shadow:none;
+	border:1px solid rgb(73,153,255);
+	border-radius:5px;
+}
+.right-bottom .btn:hover{
+	background-color:rgb(73,153,255);
+	cursor:pointer;
+	color:white;
+}
+.right-bottom .top
+{
+	display:flex;
+	align-items:center;
+	margin-top:10px;
+}
+.right-bottom .top .container
+{
+	border-radius:5px;
+	border:1px solid rgb(73,153,255);
+	height:30px;
+}
+.right-bottom table
+{
+	width:100%;
+	border-collapse: collapse;	
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.right-bottom table tr:nth-child(odd){
+	background: rgb(246,246,246);
+}
+.right-bottom table td
+{
+	text-align:center;
+}
+
+.right-bottom table .idtd
+{
+	width:50px;
+}
+.right-bottom table .content
+{
+	max-width: 200px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align:left;
+}
+.right-bottom table .tabletitle
+{
+	max-width: 200px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align:left;
+}
+.right-bottom table .tableAuthor
+{
+	max-width: 100px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align:left;
+}
+.pageNum{
+	text-align:right;
+}
+.pageNum input{
+	width:50px;
+}
+.pageNum .jump{
+	border: 1px solid rgb(73,153,255);
+    width: 46px;
+    display: inline-block;
+    line-height: 20px;
+    text-align: center;
+}
+.pageNum .jump:hover{
+	border:1px solid rgb(73,153,255);
+	background-color:rgb(73,153,255);
+	color:white;
+	cursor:pointer;
+}

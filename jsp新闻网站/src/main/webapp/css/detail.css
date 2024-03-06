@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.newsTitle
+{
+	margin-top:20px;
+	color: rgb(44,115,172);
+	text-align:center;
+	font-size: 26px;
+	font-weight: bolder;
+	margin-bottom:10px;
+	padding:0 200px;
+}
+.newsInfo
+{
+	text-align:center;
+	font-size:14px;
+	color:grey;
+}
+.newsContent
+{
+	font-size:15px;
+	color:color;
+	padding:0 200px;
+	margin-top:20px;
+	margin-bottom:20px;
+	min-height:600px;
+}
+.line{
+	width:80%;
+	height:0.5px;
+	background-color:grey;
+	margin-bottom:20px;
+	margin:0 auto;
+}
